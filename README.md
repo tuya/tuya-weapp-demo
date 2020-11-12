@@ -1,5 +1,5 @@
 
-
+## Note: This repository is inherited from the old Tuya Github repository: xxxxxx, which will be deprecated soon. Please use this repository for Tuya SDK development instead. For changing the existing remote repository URL, please check this tutorial: https://github.com/TuyaInc/tuya-weapp-demo
 ## An overview of the
 
 This is a simple version of fast access[Doodle applet SDK](https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/overview/applet-ecology?id=K9ptacgp94o5d)，[配网插件](https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/tuya-applet-with-web-plugin/distribution-network-plugin?id=K9lq218xn0wn8) and MQTT Of the connection Demo，It's stabilizing at the moment. New features will be updated in the future.
