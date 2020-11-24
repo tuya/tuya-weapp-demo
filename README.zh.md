@@ -47,7 +47,6 @@
 
 ```
 ├── cloudfunctions             // 云函数目录
-│   ├── ty-getClientId        // 获取 clientId
 │   ├── ty-service            // SDK
 ├── miniprogram                 // 小程序主目录
 │   ├── image                   // 图片库

@@ -46,7 +46,6 @@ If no device is shown in the device list, you can click "Add Device", select "Sc
 
 ```
 ├── cloudfunctions             // Cloud Function directory
-│   ├── ty-getClientId        // get clientId
 │   ├── ty-service            // SDK
 ├── miniprogram                 // Applet home directory
 │   ├── image                   // The gallery

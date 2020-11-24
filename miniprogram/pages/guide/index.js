@@ -1,4 +1,7 @@
 // pages/guide/index.js
+import {
+  getClientId
+} from '../../utils/api/common-api';
 
 const app = getApp()
 Page({
@@ -40,4 +43,9 @@ Page({
       url: '/pages/guide/deviceControl/index',
     })
   },
+  getClientId:function(){
+    getClientId().then(res => {
+      console.log('res', res)
+    })
+  }
 })

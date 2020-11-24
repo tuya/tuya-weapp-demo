@@ -15,6 +15,9 @@
 <view class="uploader">
   <view class="uploader-text" bindtap="gotoFamily">家庭功能模块</view> 
 </view>
+<view class="uploader">
+  <view class="uploader-text" bindtap="getClientId">获取用户的 clientId</view> 
+</view>
 
 
 

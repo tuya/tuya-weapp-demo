@@ -1,18 +1,21 @@
 import request from '../request'
 
-// 获取用户的clientId
-export const getClientId = () => {
-  return wx.cloud.callFunction({
-    name: 'ty-getClientId'
-  })
-}
-
 // 用户临时票据获取
 export const reqTicket = () => {
   return request({
     name: 'ty-service',
     data: {
       action: 'system.userTicket',
+      params: {}
+    }
+  })
+}
+
+export const getClientId = () => {
+  return request({
+    name: 'ty-service',
+    data: {
+      action: 'getClientId',
       params: {}
     }
   })
