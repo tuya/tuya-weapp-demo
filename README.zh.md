@@ -1,5 +1,5 @@
 
-## 注意：当前仓库继承自即将被废弃的涂鸦Github仓库：xxxxxx，请使用当前 Github 仓库进行涂鸦 SDK相关开发。更换远程Github仓库URL的教程，可以参考：https://github.com/TuyaInc/tuya-weapp-demo
+##### 注意：当前仓库继承自即将被废弃的涂鸦Github仓库：https://github.com/TuyaInc/tuya-weapp-demo，请使用当前 Github 仓库进行涂鸦 SDK相关开发。更换远程Github仓库URL的教程，可以参考：https://docs.github.com/en/free-pro-team@latest/github/using-git/changing-a-remotes-url
 
 ## 概述
 
