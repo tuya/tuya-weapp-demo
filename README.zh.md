@@ -1,15 +1,17 @@
 
-##### 注意：当前仓库继承自即将被废弃的涂鸦Github仓库：https://github.com/TuyaInc/tuya-weapp-demo，请使用当前 Github 仓库进行涂鸦 SDK相关开发。更换远程Github仓库URL的教程，可以参考：https://docs.github.com/en/free-pro-team@latest/github/using-git/changing-a-remotes-url
+#### 注意：当前仓库继承自即将被[废弃的涂鸦Github仓库](https://github.com/TuyaInc/tuya-weapp-demo)，请使用当前 Github 仓库进行涂鸦 SDK相关开发。更换远程Github仓库URL的教程，可以参考[这里](https://docs.github.com/cn/free-pro-team@latest/github/using-git/changing-a-remotes-url).
+
+
 
 ## 概述
 
-这个一个简易版快速接入[涂鸦的小程序 SDK](https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/overview/applet-ecology?id=K9ptacgp94o5d)，[配网插件](https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/tuya-applet-with-web-plugin/distribution-network-plugin?id=K9lq218xn0wn8) 和 MQTT 的连接的Demo，目前趋于稳定。后续还会有新功能的更新。
+这个一个简易版快速接入[涂鸦的云函数](https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/overview/applet-ecology?id=K9ptacgp94o5d)，[配网插件](https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/tuya-applet-with-web-plugin/distribution-network-plugin?id=K9lq218xn0wn8) 和 MQTT 的连接的Demo，目前趋于稳定。后续还会有新功能的更新。
 
 ## 体验
 
-如果需要在自己的小程序中嵌入小程序配网的功能，可以通过接入小程序 SDK，获取自己的票据信息，然后调用小程序插件，完成配网，配网成功后重新调用获取设备信息的接口即可。
+如果需要在自己的小程序中嵌入小程序配网的功能，可以通过接入云函数，获取自己的票据信息，然后调用小程序插件，完成配网，配网成功后重新调用获取设备信息的接口即可。
 
-如果需要在自己的小程序中开发设备控制，场景联动、自动化等功能，可以通过小程序 SDK 调用相应的接口即可。
+如果需要在自己的小程序中开发设备控制，场景联动、自动化等功能，可以通过云函数 调用相应的接口即可。
 
 如果需要涂鸦公版小程序来支持您的设备，可以联系我们。公版小程序的您可以扫码下面的二维码体验：
 
@@ -73,8 +75,4 @@
 
 ## 技术支持
 
-  <p align="center"  >
-    <img src="https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/goat/20200811/52a6139793854a2ea7d3ce15dd59d40c.png" alt="drawing" width="200"/>
-  </p>
-
-  文档看了这么多，还是有很多疑问？需要有技术支持？对我们的小程序有建议？有吐槽？有需求？可以添加上面的微信为好友，随时答疑解惑（验证消息中写明：技术交流，不然没法通过）。
+  文档看了这么多，还是有很多疑问？需要有技术支持？对我们的小程序有建议？有吐槽？有需求？可以通过工单来联系我们
