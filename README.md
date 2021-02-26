@@ -1,27 +1,27 @@
-[English](README.md) | [中文版](README.zh.md)
+ [中文版](README.zh.md) | [English](README.md)
 
-#### Note: This repository is inherited from the [old Tuya Github repository](https://github.com/TuyaInc/tuya-weapp-demo), which will be deprecated soon. Please use this repository for Tuya SDK development instead. For changing the existing remote repository URL, please check this [tutorial](https://docs.github.com/en/free-pro-team@latest/github/using-git/changing-a-remotes-url).
+#### Note: This repository is inherited from the [old Tuya Github repository](https://github.com/TuyaInc/tuya-weapp-demo) that will be deprecated soon. Please use this repository for Tuya SDK development instead.  For changing the existing remote repository URL, see this [tutorial](https://docs.github.com/en/free-pro-team@latest/github/using-git/changing-a-remotes-url)
 
 ## Overview
 
-This is a simple version of fast access[Doodle Applet SDK](https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/overview/applet-ecology?id=K9ptacgp94o5d)，[Distribution Network Plugin](https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/tuya-applet-with-web-plugin/distribution-network-plugin?id=K9lq218xn0wn8) and MQTT Of the connection Demo，It's stabilizing at the moment. New features will be updated in the future.
+This Demo is for quick connection to [Tuya Cloud Function](https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/overview/applet-ecology?id=K9ptacgp94o5d), [Pairing Plugin](https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/tuya-applet-with-web-plugin/distribution-network-plugin?id=K9lq218xn0wn8) and, MQTT. New features will be updated in the future.
 
-## Get Started
+## Experience
 
-If you need to embed the function of small program distribution network in your own small program, you can access the small program SDK to get your ticket information, then call the small program plug-in to complete the distribution network, and then call the interface to get device information again after the success of the distribution network.
+If you need to embed the pairing function in your applet, you can get your ticket information by connecting to the cloud function and call the applet plugin to complete paring. Call the API for getting device information after pairing is completed
 
-If you need to develop device control, scene linkage, automation and other functions in your own small program, you can call the corresponding interface through the small program SDK.
+If you need to develop device control, scene linkage and automation, you can call the corresponding APIs through the cloud function.
 
-If you need a doodle public applet to support your device, please contact us. Public version of the small program you can scan the code below the TWO-DIMENSIONAL code experience：
+Contact us if you need Tuya all-in-one applet. Scan the QR code below to experience the all-in-one applet.
 
 <p align="center">
 <img width=200 src="https://images.tuyacn.com/rms-static/9cbc9210-cb1f-11ea-9723-5fcc4b1eeb4e-1595314722225.jpg?tyName=gh_42ad2888c42d_258.jpg" >
 </p>
 
-If no device is shown in the device list, you can click "Add Device", select "Scan code Distribution network" and scan the following TWO-DIMENSIONAL code to experience the device。
+If no device is indicated in the device list, you can tap **Adding device** and select **Scan the QR code to pair**. You can experience the device by scanning the QR code below.
 <p align="center"  >
-<img width=200 src="https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/goat/20200703/9123115b69c049899d14a84b239c13ed.png" >
-<p align="center">Aromatherapy machine</p>
+<img width="200" src="https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/goat/20200703/9123115b69c049899d14a84b239c13ed.png">
+<p align="center">Diffuser</p>
 </p>
 
 <p align="center"  >
@@ -44,30 +44,34 @@ If no device is shown in the device list, you can click "Add Device", select "Sc
 <p align="center">Intelligent lamp</p>
 </p>
 
-## Demo Catalog
+## Demo directory 
 
 ```
-├── cloudfunctions             // Cloud Function directory
-│   ├── ty-service            // SDK
-├── miniprogram                 // Applet home directory
-│   ├── image                   // The gallery
-│   ├── libs                   // Third-party libraries
-│   ├── pages                  // The directory for the specific page
-│   ├── app.js                 // Applet entry
-│   ├── app.json               // The configuration file
-├── project.config.json        // Project profile
-└── README.md            // Description file
+├── cloudfunctions             //  Cloud function directory
+│   ├── ty-service             // SDK
+├── miniprogram                // Applet home directory
+│   ├── image                  // The gallery
+│   ├── libs                   // Third-party libraries
+│   ├── pages                  // The directory of a specific page
+│   ├── app.js                 // Applet entry
+│   ├── app.json               // Configuration file
+├── project.config.json        // Project configuration file
+└── README.md                  // Description file
 ```
 
-## Demo Description
+## Demo description
 
-- Equipment distribution network：
+- #### Device pairing
 
-  Directly click the button for network distribution: AP network distribution, code scanning network distribution, Bluetooth network distribution and ZigBee network distribution are currently supported
+   Click the button to pair. You can select from AP pairing, QR code pairing, Bluetooth pairing, and Zigbee pairing.
 
-- Experience device functions：
+- #### Experience device function
 
-  After adding a device, you can click the device open switch to adjust MQTT message push of the device. It is suggested to use getdevicespeciannotation function in API.JS file to get the instruction set to avoid the possibility of inconsistent names of dp point fields. The content of the push message will be displayed on the page after the instruction is issued normally
+   After adding the device, you can click the device on the switch to debug the MQTT push notification. It is recommended to use the getDeviceSpecifications function in the api.js file to get the instruction set to prevent possible inconsistencies in the DP field names. The content of the push notification will be displayed on the page after the command is sent.
 
-- The full version Demo
-  Currently support device control, message push, add device (distribution network), home module
+- #### Supported device functions
+  The current full version Demo supports device control, push notification, adding devices (pairing), and home module.
+
+## Technical support
+
+Contact us if you have any queries.
