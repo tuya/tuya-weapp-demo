@@ -1,18 +1,18 @@
  [中文版](README.zh.md) | [English](README.md)
 
-#### Note: This repository is inherited from the [old Tuya Github repository](https://github.com/TuyaInc/tuya-weapp-demo) that will be deprecated soon. Please use this repository for Tuya SDK development instead.  For changing the existing remote repository URL, see this [tutorial](https://docs.github.com/en/free-pro-team@latest/github/using-git/changing-a-remotes-url)
+#### Note: This repository is inherited from the [old Tuya Github repository](https://github.com/TuyaInc/tuya-weapp-demo) that will be deprecated soon. Please use this repository for Tuya SDK development instead.  For changing the existing remote repository URL, see this [tutorial](https://docs.github.com/en/free-pro-team@latest/github/using-git/changing-a-remotes-url).
 
 ## Overview
 
 This Demo is for quick connection to [Tuya Cloud Function](https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/overview/applet-ecology?id=K9ptacgp94o5d), [Pairing Plugin](https://developer.tuya.com/cn/docs/iot/app-development/mini-programs/tuya-applet-with-web-plugin/distribution-network-plugin?id=K9lq218xn0wn8) and, MQTT. New features will be updated in the future.
 
-## Experience
+## Get Started
 
 If you need to embed the pairing function in your applet, you can get your ticket information by connecting to the cloud function and call the applet plugin to complete paring. Call the API for getting device information after pairing is completed
 
 If you need to develop device control, scene linkage and automation, you can call the corresponding APIs through the cloud function.
 
-Contact us if you need Tuya all-in-one applet. Scan the QR code below to experience the all-in-one applet.
+Contact us if you need a Tuya all-in-one applet. Scan the QR code below to experience the all-in-one applet.
 
 <p align="center">
 <img width=200 src="https://images.tuyacn.com/rms-static/9cbc9210-cb1f-11ea-9723-5fcc4b1eeb4e-1595314722225.jpg?tyName=gh_42ad2888c42d_258.jpg" >
@@ -67,7 +67,7 @@ If no device is indicated in the device list, you can tap **Adding device** and 
 
 - #### Experience device function
 
-   After adding the device, you can click the device on the switch to debug the MQTT push notification. It is recommended to use the getDeviceSpecifications function in the api.js file to get the instruction set to prevent possible inconsistencies in the DP field names. The content of the push notification will be displayed on the page after the command is sent.
+   After adding a device, you can click the device on the switch to debug the MQTT push notification. It is recommended to use the getDeviceSpecifications function in the api.js file to get the instruction set to prevent possible inconsistencies in the DP field names. The content of the push notification will be displayed on the page after the command is sent.
 
 - #### Supported device functions
   The current full version Demo supports device control, push notification, adding devices (pairing), and home module.
